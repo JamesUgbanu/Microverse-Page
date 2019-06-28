@@ -24,9 +24,9 @@
           id="header-img"
         />
         <nav id="nav-bar">
-          <a href="#" class="nav-link">Home</a>
-          <a href="#products" class="nav-link">Products</a>
-          <a href="#contact" class="nav-link">Contact Us</a>
+          <a href="#video" class="nav-link">Home</a>
+          <a href="#product" class="nav-link">Products</a>
+          <a href="#form" class="nav-link">Contact Us</a>
         </nav>
       </header>
       <iframe
@@ -38,18 +38,9 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input
-          type="email"
-          id="email"
-          placeholder="Please input your email"
-          required
-        />
-        <input type="submit" id="submit" />
-      </form>
 
       <section>
-        <div class="product">
+        <div class="product" id="product">
           <img
             class="picture"
             src="https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-8/gold/apple-iphone8-gold-1-3x.jpg"
@@ -76,6 +67,15 @@
           <p class="summary">Very nice phone...</p>
           <a href="#" class="button">Buy Now</a>
         </div>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            id="email"
+            placeholder="Please input your email"
+            required
+          />
+          <input type="submit" id="submit" class="button" />
+        </form>
       </section>
 
       <section class="footer">
